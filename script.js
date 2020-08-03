@@ -10,8 +10,6 @@ const complicated = document.getElementById('complicated');
 let cardWasClicked = false;
 let cardCount;
 
-
-
 const levelChecked = () => {
 	levelSelection.forEach(item => {
 		item.classList.remove('level_checked');
@@ -93,6 +91,5 @@ const beginGame = () => {
 	startMenu.style.display = 'none';
 	playGame();
 };
-
 
 beginButton.addEventListener('click', beginGame);
