@@ -103,11 +103,11 @@
   width: 220px;
   position: relative;
   transform-style: preserve-3d;
-	transition: transform .8s;
+  transition: transform .8s;
 }
 
 .card-wrap__hover:hover {
-  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, .5);
   transform: rotate(-3.08deg) translateY(-15px);
   transition: .5s ease;
 }
